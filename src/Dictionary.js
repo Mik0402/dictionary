@@ -29,7 +29,7 @@ export default function Dictionary() {
             <h2>What word do you want to look up?</h2>
             <form onSubmit={search}>
         <input type="search" autoFocus={true} placeholder=' Search' onChange={handleKeywordChange} />
-        <button type="Submit" className="btn btn-primary">Search</button>
+        <button type="submit" className="btn btn-primary">Search</button>
         </form>
         </div>
         <Results results={results} />
